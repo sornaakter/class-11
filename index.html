@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>javasript</title>
+		<link rel="stylesheet" href="css/fakeloader.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+	<link rel="stylesheet" href="css/lightbox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body id="top">
+	<!--page loader--->
+				<div id="fakeloader-overlay" class="visible incoming">
+
+			  <div class="loader-wrapper-outer">
+
+			    <div class="loader-wrapper-inner">
+
+			      <div class="loader"></div>
+
+			    </div>
+
+			  </div>
+
+			</div>
+
+	<!--navs section--->
+	<section class="nav-section">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-2">
+					<a href="#">LOGO</a>
+					
+				</div>
+				<div class="col-10">
+					<ul class="nav menu justify-content-end d-none d-sm-flex">
+					 
+					  <li class="nav-item">
+					    <a class="nav-link" href="#">Home</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#">About Us</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#">Contract Us</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#">Blog</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#">Help</a>
+					  </li>
+					  
+					</ul>
+			
+					<!---ninja zoom--->
+					<div class="d-sm-none">
+						<input type="checkbox" id="toggle"/>
+					  <label for="toggle" id="toggle-btn"></label>
+					  <div class="nav-icon"></div>
+					  <nav data-state="close">
+					    <ul>
+					      <li><a href="#">Home</a></li>
+					      <li><a href="#">About</a></li>
+					      <li><a href="#">Services</a></li>
+					      <li><a href="#">Contact</a></li>
+					    </ul>
+					  </nav>
+					</div>
+					
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!---isotop section-->
+	<section>
+		<div class="container" data-js="filtering-demo">
+			<ul class="nav justify-content-center filter-button-group">
+
+
+				<li class="px-1 py-5"><button data-filter="*" class="btn btn-danger" type="button">All class</button></li>
+
+
+				<li class="px-1 py-5"><button data-filter=".cl1" class="btn btn-danger" type="button">class-01</button></li>
+
+				
+
+				<li class="px-1 py-5"><button data-filter=".cl2" class="btn btn-danger" type="button">class-02</button></li>
+
+
+				<li class="px-1 py-5"><button data-filter=".cl3" class="btn btn-danger" type="button">class-03</button></li>
+
+
+				<li class=" px-1 py-5"><button data-filter=".cl4" class="btn btn-danger" type="button">class-04</button></li>
+
+
+				<li class="px-1 py-5"><button data-filter=".cl5" class="btn btn-danger" type="button">class-05</button></li>
+
+
+				<li class="px-1 py-5"><button data-filter=".cl6" class="btn btn-danger" type="button">class-06</button></li>
+
+
+				<li class="px-1 py-5"><button data-filter=".cl7" class="btn btn-danger" type="button">class-07</button></li>
+
+
+				<li class="px-1 py-5"><button data-filter=".cl8" class="btn btn-danger" type="button">class-08</button></li>
+
+
+				<li class="px-1 py-5"><button data-filter=".cl9" class="btn btn-danger" type="button">class-09</button></li>
+
+
+				<li class="px-1 py-5"><button data-filter=".cl10" class="btn btn-danger" type="button">class-10</button></li>
+				
+			</ul>
+			<div class="row grid">
+				<div class="col-3 element-item cl1">
+					<img src="images/cl-1.PNG" class="w-100">
+					<ul class="nav">
+						<li><a href="images/cl-1.PNG" data-lightbox="image-1" >view</a></i></li>
+						<li><a href="#">link</a></li>
+					</ul>
+				</div>
+				
+				
+				<div class="col-3 element-item cl2">
+					<img src="images/cl-2.jpg" class="w-100"><ul class="nav">
+						<li><a href="images/cl-2.jpg" data-lightbox="image-1" >view</a></i></li>
+						<li><a href="#">link</a></li>
+					</ul>
+				</div>
+				<div class="col-3 element-item cl10">
+					<img src="images/cl-10.jpg" class="w-100"><ul class="nav">
+						<li><a href="images/cl-10.jpg" data-lightbox="image-1" >view</a></i></li>
+						<li><a href="#">link</a></li>
+					</ul>
+				</div>
+				<div class="col-3 element-item cl2">
+					<img src="images/cl2a.jpg" class="w-100"><ul class="nav">
+						<li><a href="images/cl2a.jpg" data-lightbox="image-1" >view</a></i></li>
+						<li><a href="#">link</a></li>
+					</ul>
+				</div>
+				<div class="col-3 element-item cl2">
+					<img src="images/cl2b.jpg" class="w-100"><ul class="nav">
+						<li><a href="images/cl2b.jpg" data-lightbox="image-1" >view</a></i></li>
+						<li><a href="#">link</a></li>
+					</ul>
+				</div>
+				
+							
+
+				<div class="col-3 element-item cl3">
+					<img src="images/cl-3.jpg" class="w-100"><ul class="nav">
+						<li><a href="images/cl-3.jpg" data-lightbox="image-1" >view</a></i></li>
+						<li><a href="#">link</a></li>
+					</ul>
+				</div>
+				<div class="col-3 element-item cl3">
+					<img src="images/cl-3a.jpg" class="w-100"><ul class="nav">
+						<li><a href="images/cl-3a.jpg" data-lightbox="image-1" >view</a></i></li>
+						<li><a href="#">link</a></li>
+					</ul>
+				</div>
+				<div class="col-3 element-item cl3">
+					<img src="images/cl-3b.PNG" class="w-100"><ul class="nav">
+						<li><a href="images/cl-3b.PNG" data-lightbox="image-1" >view</a></i></li>
+						<li><a href="#">link</a></li>
+					</ul>
+				</div>
+				<div class="col-3 element-item cl8">
+					<img src="images/cl-8.jpg" class="w-100"><ul class="nav">
+						<li><a href="images/cl-8.jpg" data-lightbox="image-1" >view</a></i></li>
+						<li><a href="#">link</a></li>
+					</ul>
+				</div>
+				<div class="col-3 element-item cl3">
+					<img src="images/cl-3c.jpg" class="w-100"><ul class="nav">
+						<li><a href="images/cl-3c.jpg" data-lightbox="image-1" >view</a></i></li>
+						<li><a href="#">link</a></li>
+					</ul>
+				</div>
+				<div class="col-3 element-item cl3">
+					<img src="images/cl-3d.jpg" class="w-100"><ul class="nav">
+						<li><a href="images/cl-3d.jpg" data-lightbox="image-1" >view</a></i></li>
+						<li><a href="#">link</a></li>
+					</ul>
+				</div>
+				<div class="col-3 element-item cl3">
+					<img src="images/cl-3e.jpg" class="w-100"><ul class="nav">
+						<li><a href="images/cl-3e.jpg" data-lightbox="image-1" >view</a></i></li>
+						<li><a href="#">link</a></li>
+					</ul>
+				</div>
+
+						
+
+				<div class="col-3 element-item cl4">
+					<img src="images/cl-4.PNG" class="w-100"><ul class="nav">
+						<li><a href="images/cl-4.PNG" data-lightbox="image-1" >view</a></i></li>
+						<li><a href="#">link</a></li>
+					</ul>
+				</div>
+				<div class="col-3 element-item cl5">
+					<img src="images/cl-5.PNG" class="w-100"><ul class="nav">
+						<li><a href="images/cl-5.PNG" data-lightbox="image-1" >view</a></i></li>
+						<li><a href="#">link</a></li>
+					</ul>
+				</div>
+				<div class="col-3 element-item cl6">
+					<img src="images/cl-6.PNG" class="w-100"><ul class="nav">
+						<li><a href="images/cl-6.PNG" data-lightbox="image-1" >view</a></i></li>
+						<li><a href="#">link</a></li>
+					</ul>
+				</div>
+				<div class="col-3 element-item cl7">
+					<img src="images/cl-7.PNG" class="w-100"><ul class="nav">
+						<li><a href="images/cl-7.PNG" data-lightbox="image-1" >view</a></i></li>
+						<li><a href="#">link</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-3 element-item cl9">
+					<img src="images/cl-9.jpg" class="w-100"><ul class="nav">
+						<li><a href="images/cl-9.jpg" data-lightbox="image-1" >view</a></i></li>
+						<li><a href="#">link</a></li>
+					</ul>
+				</div>
+				<div class="col-3 element-item cl1">
+					<img src="images/cl-1a.PNG" class="w-100"><ul class="nav">
+						<li><a href="images/cl-1a.PNG" data-lightbox="image-1" >view</a></i></li>
+						<li><a href="#">link</a></li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+<a href="#top" class="home"><i class="fas fa-arrow-up"></i></a>
+
+<!-----2nd section---->
+<section>
+	<div class="container">
+		<div class="row justify-content-center py-5">
+			<div class="col-3">
+				<div class="text" data-aos="fade-right"
+					     data-aos-offset="300"
+					     data-aos-easing="ease-in-sine">
+					<h2>Hello Brother</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+					tempor incididunt ut labore et dolore magna aliqua. Ut 
+					quis nostrud exercitation ullamco laboris nisi ut aliquip 
+					consequat. Duis aute irure dolor in reprehenderit in 
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="img" data-aos="fade-up">
+     					
+					<img src="images/1.jpg" class="w-100 background">
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center py-5">
+			<div class="col-3">
+				<div class="img" data-aos="fade-right">
+					<img src="images/1.jpg" class="w-100 background">
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="text" data-aos="fade-down">
+					<h2>Hello Brother</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+					tempor incididunt ut labore et dolore magna aliqua. Ut 
+					quis nostrud exercitation ullamco laboris nisi ut aliquip 
+					consequat. Duis aute irure dolor in reprehenderit in 
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+			
+		</div>
+		<div class="row justify-content-center py-5">
+			<div class="col-3">
+				<div class="text" data-aos="fade-left">
+					<h2>Hello Brother</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+					tempor incididunt ut labore et dolore magna aliqua. Ut 
+					quis nostrud exercitation ullamco laboris nisi ut aliquip 
+					consequat. Duis aute irure dolor in reprehenderit in 
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="img" data-aos="fade-right">
+					<img src="images/1.jpg" class="w-100 background">
+				</div>
+			</div>
+		</div>
+
+		<div class="parallax-window" data-parallax="scroll" data-image-src="images/4.jpg"></div>
+
+		<div class="row justify-content-center py-5">
+			<div class="col-3">
+				<div class="text"  data-aos="fade-up-right">
+					<h2>Hello Brother</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+					tempor incididunt ut labore et dolore magna aliqua. Ut 
+					quis nostrud exercitation ullamco laboris nisi ut aliquip 
+					consequat. Duis aute irure dolor in reprehenderit in 
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="img" data-aos="fade-down-right">
+					<img src="images/1.jpg" class="w-100 background">
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center py-5">
+			<div class="col-3">
+				<div class="img" data-aos="flip-left">
+					<img src="images/1.jpg" class="w-100 background">
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="text" data-aos="flip-down">
+					<h2>Hello Brother</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+					tempor incididunt ut labore et dolore magna aliqua. Ut 
+					quis nostrud exercitation ullamco laboris nisi ut aliquip 
+					consequat. Duis aute irure dolor in reprehenderit in 
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+			
+		</div>
+		<div class="row justify-content-center py-5">
+			<div class="col-3">
+				<div class="text"  data-aos="flip-left">
+							     
+							
+					<h2>Hello Brother</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+					tempor incididunt ut labore et dolore magna aliqua. Ut 
+					quis nostrud exercitation ullamco laboris nisi ut aliquip 
+					consequat. Duis aute irure dolor in reprehenderit in 
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="img" data-aos="zoom-in-up">
+					<img src="images/1.jpg" class="w-100 background">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</section>
+<!----sportlight mouseover---->
+	 <section class="mouseover">
+      <div class="focus"></div>
+    </section>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/fakeloader.min.js"></script>
+
+<script src="js/isotope-docs.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+	integrity=
+"sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 					crossorigin="anonymous">
+</script>
+
+<script>
+	//**page loader***//
+		window.FakeLoader.init({
+  		auto_hide: true
+		});
+		//****//
+  AOS.init(
+  	{
+  	 anchorPlacement: 'bottom-bottom',
+  	 duration: 1000,
+  	 easing: 'ease-out-cubic',
+	});
+  	/*******nav section*****/
+  	$(window).on('scroll',function(){
+  		if($(window).scrollTop() > 300){
+  			$(".nav-section").addClass("sticynav");
+  			$(".home").addClass("homeIcon");
+  		}
+  		else{
+  			$(".nav-section").removeClass("sticynav");
+  			$(".home").removeClass("homeIcon");
+  		}
+  	});
+  	///**********color********///
+  	(function () {
+    'use strict';
+    const arraySelectors = [...document.querySelectorAll('.selector')];
+    const wrapSelectors = document.querySelector('.wrap-inner');
+    const rotateValue = 360 / arraySelectors.length;
+    for (let i = 0; i < arraySelectors.length; i++) {
+        // Set Selector Colors
+        arraySelectors[i].style.backgroundColor = arraySelectors[i].getAttribute('data-color');
+        // Default Active Class
+        arraySelectors[0].classList.add('selector--active');
+        // Set Root CSS
+        document.documentElement.style.setProperty('--selected-color', arraySelectors[0].getAttribute('data-color'));
+        // Selector OnClick Function
+        arraySelectors[i].addEventListener('click', function () {
+            // Toggle Active Class
+            arraySelectors.forEach(selector => this === selector
+                ? selector.classList.add('selector--active')
+                : selector.classList.remove('selector--active'));
+            // Check Selector Index
+            if (this === arraySelectors[0]) {
+                wrapSelectors.style.transform = 'rotate(90deg)';
+            }
+            else if (this === arraySelectors[1]) {
+                wrapSelectors.style.transform = 'rotate(0deg)';
+            }
+            else {
+                wrapSelectors.style.transform = `rotate(${i * rotateValue}deg)`;
+            }
+            // Update Root CSS
+            document.documentElement.style.setProperty('--selected-color', this.getAttribute('data-color'));
+        });
+    }
+})();
+//*****mouse paralax*****///
+/* $( document ).mousemove( function( e ) {
+			$( '.background' ).parallax( 30, e );
+			
+			
+		 });*/
+
+		 jQuery(function( $ ){
+  
+  	var $body=$("body"),
+	$heroA=$(".background");
+	
+	
+	TweenMax.set( $heroA, { transformStyle: 'preserve-3d'  });
+	
+	
+	$body.mousemove(function(e) {
+		
+		var sxPos =  e.pageX / $body.width()  * 100 - 50;
+		var syPos =  e.pageY / $body.height() * 100 - 50;
+		
+		TweenMax.to( $heroA, 1, { rotationY: 0.55 * sxPos, rotationX: 0.40 * syPos, rotationZ: '-0.1', transformPerspective:700, transformOrigin:'center center' });
+		
+
+	});
+
+
+});
+//************spotlight mouseover***********//
+ $(document).mousemove(function(e) {
+        var X = e.pageX;
+        var Y = e.pageY;
+        $(".focus").css(
+          "background",
+          "radial-gradient(circle at " +
+            X +
+            "px " +
+            Y +
+            "px, transparent, #000 30%)"
+        );
+      });
+
+
+</script>
+</body>
+</html>

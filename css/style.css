@@ -1,0 +1,202 @@
+.grid div{
+	margin-bottom: 20px;
+	position: relative;
+}
+.grid{}
+.grid ul{position: absolute;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.grid ul li{
+    margin: 5px;
+}
+
+.grid ul li a{
+    color: #Fff;
+    font-size: 22px;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 5px 8px;
+    border-radius: 10px;
+    background: #222;
+}
+///*****2nd section*********//
+.img{
+
+}
+.img img{
+    margin-top: 30px;
+}
+.home{
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+    display: inline-block;
+    color: #fff;
+    background: red; 
+    font-size: 40px;
+    border-radius: 50px;
+    visibility: hidden;
+    transition: all .3s ease-in-out;
+}
+.homeIcon{
+    visibility: visible;
+     bottom: 50px;
+}
+.home i{
+        padding: 20px;
+}
+.parallax-window{
+    min-height: 70vh;
+}
+.nav-section{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    transition: all .3s ease-in-out;
+}
+ .sticynav{
+    background: #555;
+   
+}
+.sticynav .menu a{
+     color: #fff;
+}
+.sticynav a{
+    color: #fff !important;
+}
+.nav-section a{
+    color: #333;
+    font-size: 22px;
+    display: block;
+    font-weight: 600;
+    font-family: arial;
+    text-decoration: none;
+}
+
+.menu a{
+    color: #333;
+    font-size: 22px;
+    display: block;
+    font-weight: 600;
+    font-family: arial;
+}
+
+
+
+
+ //******ninja zoom nav****//
+ nav, nav ul
+  position: fixed
+  width: 100%
+  height: 100%
+
+nav
+  box-shadow: inset 0 0 0 1px rgba(white, .3)
+  opacity: 0
+  transform: scale(.3)
+  transition: all .25s
+
+nav ul li
+  display: table
+  width: 100%
+  height: $btnheight
+  border-bottom: 1px solid rgba(white, .3)
+  background: $navbg
+  perspective: 0px
+  transform: rotateX(-90deg) scale(.5)
+  transition: all .3s ease .1s
+
+nav ul li a
+  display: table-cell
+  vertical-align: middle
+  text-align: center
+  text-decoration: none
+  font-size: 2.5em
+  letter-spacing: .2em
+  color: white
+  text-shadow: 0 0 3px rgba(black, .3)
+  font-family: 'Helvetica', sans-serif
+  font-weight: 100
+
+nav ul li a:hover
+  background: rgba(white, .1)
+
+#toggle
+  display: none
+
+#toggle + #toggle-btn,
+.nav-icon
+  position: absolute
+  top: 15px
+  right: 15px
+  border-radius: 3px
+  cursor: pointer
+
+#toggle + #toggle-btn
+  height: 40px
+  width: 40px
+  z-index: 1000
+  background: $iconbg
+
+.nav-icon,
+.nav-icon:before,
+.nav-icon:after
+  position: absolute
+  height: 4px
+  width: 40px
+  margin: 18px 0
+  z-index: 900
+  border-radius: 3px
+  background: $icon
+  transition: all .25s
+
+.nav-icon:before
+  content: ""
+  margin-top:-18px
+
+.nav-icon:after
+  content: ""
+  margin-top:18px
+
+#toggle:checked ~ nav
+  opacity: 1
+  transform: scale(.8)
+
+#toggle:checked ~ .nav-icon
+  background: rgba(red, 0)
+
+#toggle:checked ~ .nav-icon:before
+  transform: rotate(-225deg)
+  margin-top: 0
+
+#toggle:checked ~ .nav-icon:after
+  transform: rotate(225deg)
+  margin-top: 0
+
+#toggle:checked ~ nav ul li
+  transform: rotateY(0deg) scale(1)
+//*********sportlight mouseover**********/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.mouseover {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(../images/7.jpg);
+  background-size: cover;
+}
+
+.focus {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 825px 424px,transparent, rgb(0,0,0) 30%);
+}
